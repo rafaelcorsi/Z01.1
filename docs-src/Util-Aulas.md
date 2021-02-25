@@ -1,6 +1,6 @@
 # Resumo Aulas
 
-Resumo das aulas.
+Resumo e planejamento das aulas.
 
 <!--
 ## Aula 13 - nasm jmp 
@@ -65,35 +65,43 @@ Pequena expositiva
 	Exercícios Dados Digitais 1: https://docs.google.com/spreadsheets/d/1MqgT-U9c3V4v5LVi27yZr89jugACc1sp4-R9MYf26Pg/edit?usp=sharing
 - [Estudo: Dados Digitais 2: https://insper.github.io/Z01.1/Exercicio-Dados-2/
 
+-->
+
 ## Aula 3
 
--->
 
 ## Aula 2 
 
 Estudar lógica booleana e praticar; Introdução ao git com trabalho coletivo.
 
-- Estudo prévio:
-    - [Teoria Álgebra Booleana](https://insper.github.io/Z01.1/Teoria-Algebra-Booleana/)
+| Estudo prévio                                                                      |
+|------------------------------------------------------------------------------------|
+| [Teoria Álgebra Booleana](https://insper.github.io/Z01.1/Teoria-Algebra-Booleana/) |
 
-- Handout/ Exercício:
+1. Breve explicação e visão geral (15 min)
+    - Lousa (TODO: add lousa)
+    
+1. Kahoot (10 min)
+    - https://create.kahoot.it/creator/c7adbf49-4c8c-4756-b4c9-63361626c20d
+
+1. Handout/ Exercício (1h30):
     - [Álgebra Booleana - 1](/Z01.1/Exercicio-Algebra-Booleana-1)
     - [Álgebra Booleana - 2](/Z01.1/Exercicio-Algebra-Booleana-2)
 
-- Lab: 
+1. Lab (30 min): 
     - [Lab 2: GitHub](/Z01.1/A-Ambiente-Lab-2)
 
 ## Aula 1
 
 Aula de apresentação da matéria; visão geral do que vai ser feito; Criação de grupos e preparar github do grupo.
 
-- Slides:
+1. Slides (1h00):
     - [Slide]()
     - [Prezi](https://prezi.com/view/InQMPs4wjxMtznUGlW6L/)
     
-- Handout/ Estudo/ Exercício:
+1. Handout/ Estudo/ Exercício (40 min):
     - [Montar grupos](https://docs.google.com/spreadsheets/d/1hbrLelEdeRQr9siGwYfisSL55E5JMIX5kgyoh7u47yY/edit?usp=sharing)
     - [Mural](https://app.mural.co/t/elementos9119/m/elementos9119/1597285239955/b0ee33c2c314f45deed54bff567249274e9cccc6)
    
-- Lab: 
+1. Lab (20 min): 
     - [Lab 1: Configurando GitHub](/Z01.1/A-Ambiente-Lab-1)

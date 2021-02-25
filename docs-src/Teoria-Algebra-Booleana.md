@@ -81,116 +81,112 @@ Também podemos representar essa equação `X = A . B` como sendo um circuito di
 
 O `and` utilizado no exemplo anterior é um operador da lógica booleana, operadores possuem uma ou mais entradas e geram uma saída. Os operadores mais comuns são: `not`, `and`, `or`, `nand`, `nor`, `xor`.
 
-### not, and, or, nor
-
-
-??? note "not"
-    O operador `not` atua sobre uma variável, tornando a saída o inverso da entrada, ou seja, se a entrada do operador for `1` sua saída será `0` e vice versa.
-
-    > Uso: a luz interna do carro será acesa ('1') quando a porta estiver fechada ('0').
-
-
-    - Notação: `not`, `-`, `~`, `¬`
-
-    ```
-                                _
-    X = not A  /  X = A  /  X = Ã / X = ¬ A
-    ```
-
-    - Tabela Verdade
-
-    | Entrada A | X  = not A |
-    | --------- | ---------- |
-    | `0`       | `1`        |
-    | `1`       | `0`        |
-
-    - Simbologia
-
-    ![](figs/Teoria/LogicaBooleana-not.png){width=300}
-
-??? note "and"
-      O operador `and` atua sobre duas variável, tornando a saída `verdadeira` somente se as duas entradas forem `verdadeiras`, se uma das entradas forem `falsa` a saída será `falsa`.
-
-      > Uso: o cofre será aberto somente quando as duas chaves de seguranças forem inseridas.
-
-      - Notação:  `and`, `.`, `^`
-
-      ```
-      X = A and B  /  X = A . B   /  X = A ^ B
-      ```
-
-      - Tabela Verdade
-
-      | A   | B   | X = A and B |
-      |-----|-----|-------------|
-      | `0` | `0` | `0`         |
-      | `0` | `1` | `0`         |
-      | `1` | `0` | `0`         |
-      | `1` | `1` | `1`         |
-
-      - Simbologia
-
-      ![](figs/Teoria/LogicaBooleana-and1.png){width=300}
-
-??? note "or"
-
-    O operador `or` atua sobre duas variável, tornando a saída `verdadeira` sempre que uma das entradas forem `verdadeira`.
-
-    > Uso: O alarme de incêndio será acionado caso alguns dois dois botões sejam pressionados.  
-
-    - Notação:  `or`, `+`, `v`
-
-    ```
-    X = A or B  /  X = A + B   /  X = A v B
-    ```
-
-    - Tabela Verdade
-
-    | A   | B   | X = A or B |
-    |-----|-----|------------|
-    | `0` | `0` | `0`        |
-    | `0` | `1` | `1`        |
-    | `1` | `0` | `1`        |
-    | `1` | `1` | `1`        |
-
-    - Simbologia
-
-    ![](figs/Teoria/LogicaBooleana-or.png){width=300}
-
-??? note "nand"
-
-    Podemos começar a 'unir' operadores para formar novos comportamentos, o `nand` é a inversão (`not`) da porta lógica `and`. Na porta `nand` a saída só é `verdadeira` quando as entradas são `falsas`.
-
-    > Uso: Soar o alarme se os sensores de batimento cardíaco e o de pressão falharem.  
-
-    - Notação:  `nand`, `¬( ∧ )`
-
-    ```
-                        _____
-    X = A nand B  /  X = A . B  / X = ¬(A ∧ B)
-    ```
-
-    - Tabela Verdade
-
-    | A   | B   | X = A nand B |
-    |-----|-----|--------------|
-    | `0` | `0` | `1`          |
-    | `0` | `1` | `1`          |
-    | `1` | `0` | `1`          |
-    | `1` | `1` | `0`          |
-
-    - Simbologia
-
-    ![](figs/Teoria/LogicaBooleana-nand.png){width=300}
-
-!!! note "nor / xor / xnor"
-
-    Para as demais portas lógicas, consulte a referência: 
-
-    - https://en.wikipedia.org/wiki/Logic_gate#Symbols
-
 <iframe width="710" height="520" src="https://www.youtube.com/embed/UvI-AMAtrvE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### not
+
+O operador `not` atua sobre uma variável, tornando a saída o inverso da entrada, ou seja, se a entrada do operador for `1` sua saída será `0` e vice versa.
+
+> Uso: a luz interna do carro será acesa ('1') quando a porta estiver fechada ('0').
+
+Notação: `not`, `-`, `~`, `¬`:
+
+```
+X = not A  /  X = A  /  X = Ã / X = ¬ A
+```
+
+Tabela Verdade:
+
+| Entrada A | X  = not A |
+| --------- | ---------- |
+| `0`       | `1`        |
+| `1`       | `0`        |
+
+Simbologia:
+
+![](figs/Teoria/LogicaBooleana-not.png){width=300}
+
+### and
+      
+O operador `and` atua sobre duas variável, tornando a saída `verdadeira` somente se as duas entradas forem `verdadeiras`, se uma das entradas forem `falsa` a saída será `falsa`.
+
+> Uso: o cofre será aberto somente quando as duas chaves de seguranças forem inseridas.
+
+Notação:  `and`, `.`, `^`:
+
+```
+X = A and B  /  X = A . B   /  X = A ^ B
+```
+
+Tabela Verdade:
+
+| A   | B   | X = A and B |
+|-----|-----|-------------|
+| `0` | `0` | `0`         |
+| `0` | `1` | `0`         |
+| `1` | `0` | `0`         |
+| `1` | `1` | `1`         |
+
+Simbologia:
+
+![](figs/Teoria/LogicaBooleana-and1.png){width=300}
+
+### or
+
+O operador `or` atua sobre duas variável, tornando a saída `verdadeira` sempre que uma das entradas forem `verdadeira`.
+
+> Uso: O alarme de incêndio será acionado caso alguns dois dois botões sejam pressionados.  
+
+Notação:  `or`, `+`, `v`:
+
+```
+X = A or B  /  X = A + B   /  X = A v B
+```
+
+Tabela Verdade:
+
+| A   | B   | X = A or B |
+|-----|-----|------------|
+| `0` | `0` | `0`        |
+| `0` | `1` | `1`        |
+| `1` | `0` | `1`        |
+| `1` | `1` | `1`        |
+
+Simbologia:
+
+![](figs/Teoria/LogicaBooleana-or.png){width=300}
+
+### nand
+
+Podemos começar a 'unir' operadores para formar novos comportamentos, o `nand` é a inversão (`not`) da porta lógica `and`. Na porta `nand` a saída só é `verdadeira` quando as entradas são `falsas`.
+
+> Uso: Soar o alarme se os sensores de batimento cardíaco e o de pressão falharem.  
+
+Notação:  `nand`, `¬( ∧ )`
+
+```
+                    _____
+X = A nand B  /  X = A . B  / X = ¬(A ∧ B)
+```
+
+Tabela Verdade:
+
+| A   | B   | X = A nand B |
+|-----|-----|--------------|
+| `0` | `0` | `1`          |
+| `0` | `1` | `1`          |
+| `1` | `0` | `1`          |
+| `1` | `1` | `0`          |
+
+Simbologia:
+
+![](figs/Teoria/LogicaBooleana-nand.png){width=300}
+
+### nor / xor / xnor
+
+Para as demais portas lógicas, consulte a referência: https://en.wikipedia.org/wiki/Logic_gate#Symbols
+    
+==Estudar as portas pois iremos precisar que vocês saibam.==
 
 !!! example "Check-Point"
     <div class="riddle_target" data-rid-id="227742" data-fg="#1486CD" data-bg="rgb(255, 255, 255)" style="margin:0 auto;max-width:100%;width:640px;" data-auto-scroll="false" data-auto-scroll-offset="0">

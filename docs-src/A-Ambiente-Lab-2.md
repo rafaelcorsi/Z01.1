@@ -9,18 +9,20 @@ Nesse laboratório iremos trabalhar com o uso do git de forma colaborativa.
 !!! warning "Individual"
     Todos do grupo devem realizar de maneira individual!
 
-Uma vez criado o **fork** e adicionado os colegas vocês deverão clonar o repositório para o computador de vocês com o comando:
+Uma vez criado o **fork**  e adicionado os colegas como contribuidores do projeto (feito no lab 1) vocês deverão clonar o repositório para o computador de vocês com o comando:
 
 ``` bash
-$ git clone URL_DO_FORK
+$ git clone $URL_DO_FORK
 ```
 
-<button class="button0" id="0:clonando" onClick="progressBut(this.id);">Cheguei Aqui!</button>
-
-??? note "URL_DO_FORK"
-    A URL do seu fork pode ser obtida pelo botão 'Clone or Download' do github: 
-    ![](figs/A-Transistores/url-fork.png)
-
+!!! note "$URL_DO_FORK"
+    A URL do seu fork pode ser obtida pelo botão 'Clone or Download' do github
+    
+    ![](figs/A-Transistores/url-fork.png){width=500}
+    
+    ==Note que a url exibida é do repositório base da disciplina, vocês
+    devem clonar o repositório que foi criado no Lab 1==
+    
 !!! linux 
     O símbolo `$` indica que é um comando para ser executado no 
     terminal do Linux (`bash`), mas ele não deve fazer parte do comando.
@@ -28,6 +30,8 @@ $ git clone URL_DO_FORK
     
 !!! Linux
     Para abrir o terminal: `meta`+`t` 
+
+<button class="button0" id="0:clonando" onClick="progressBut(this.id);">Cheguei Aqui!</button>
 
 ## Adicionando nomes ao `INTEGRANTES.json`
 
@@ -130,6 +134,6 @@ e aceitar ou negar o pedido.
 
 <button class="button0" id="4:aceitandoPR" onClick="progressBut(this.id);">Cheguei Aqui!</button>
 
-Note que todos PR são testados! 
+Note que todos PR são testados pelo Travis CI (configurado no LAB 1)! 
 
 ![](figs/B-CI/pullrequest-accept.gif)
