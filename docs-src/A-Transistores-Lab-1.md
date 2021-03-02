@@ -1,8 +1,5 @@
 # Lab 3: Transistores / CI
 
-!!! success "2020-2"
-    Material atualizado.
-
 !!! info "Sugestão de como trabalhar"
     1. Realizar individual
     1. Ficar online no canal do grupo para discutir e tirar dúvidas com os colegas/professores
@@ -64,21 +61,21 @@ Vocês devem obter o seguinte diagrama:
 Com o circuito carreado no site, encontre:
 
 !!! example "Tarefa"
-    - Encontre a tabela verdade do circuito 
-    - Encontrar a equação lógica
-    - Desenhar o diagrama da equação (simplificado)
+    1. Encontre a tabela verdade do circuito.
+        - Faça todas as combinações possíveis de entradas (H/L) e verifique o valor da saída (H/L)
+    1. A partir da tabela verdade encontre a equação lógica.
+    1. Desenhar o diagrama da equação (simplificado).
 
 <button class="button0" id="1:circuito_misterioso" onClick="progressBut(this.id);">Cheguei Aqui!</button>
 
 ## Parte 2 - RTL
 
-!!! note "2020-2 Online"
-    Essa atividade seria realizada no laboratório com hardware real, quando
-    começar ter encontros presenciais podem procurar os técnicos do laboratório e pedir para
-    realizar o experimento.
+!!! note "Modo online"
+    Esta atividade seria realizada no laboratório com hardware real, quando
+    começarmos ter encontros presenciais podemos realizar o experimento de
+    forma real.
 
-Iremos implementar portas lógicas e equações booleanas com transistores BJT. Para isso vamos utilizar o [TinkerCad](https://www.tinkercad.com/), que irá permitir realizarmos uma montagem similar a
-que seria feito no laboratório.
+Iremos implementar portas lógicas e equações booleanas com transistores BJT. Para isso vamos utilizar o [TinkerCad](https://www.tinkercad.com/), que irá permitir realizarmos uma montagem similar a que seria feito no laboratório.
 
 
 <!---
@@ -114,13 +111,13 @@ O grupo deve se organizar e executar da melhor forma possível (com todos partic
 
 Iremos implementar uma porta lógica do tipo NOT usando transistores BJT. 
 
-![RTL Not](figs/A-Transistores/rtl-not.svg)
+![RTL Not](figs/A-Transistores/rtl-not.png){width=500}
 
 Para isso vocês deverão:
 
 1. Entrar no site [TinkerCad](https://www.tinkercad.com/)
 1. Logar (com google) e criar conta **pessoal**
-1. **Circuis** -> `Criar novo Circuito`
+1. **Circuis** :arrow_right: **Criar novo Circuito**
 1. Fazer a implementação a seguir
 
 ![Protoboard](figs/A-Transistores/rtl-not-protoboard.png)
@@ -198,15 +195,14 @@ Q = A.(A.(A+B)+A.C)
     Vocês devem conseguir paralelizar a execução dessa equação, para isso divida o grupo e cada um faz uma parte da equação, depois junte tudo!
 -->
     
+!!! example "Tarefa"
+    1. Implemente a equação no TinkerCad
+    1. Para validar valide com tabela verdade do circuito 
+        - **As duas tabelas precisam ser idênticas!** 
+
 !!! tip
     1. Da para simplificar?
     1. Antes de montar, faça o diagrama de blocos!
-    1. Simular é sempre bem vindo.
-
-!!! example "Tarefa"
-    1. Faça a tabela verdade da equação lógica
-    1. Levante a tabela verdade do circuito
-        - **As duas tabelas precisam ser idênticas!** 
 
 <button class="button0" id="4:rtl-equacao" onClick="progressBut(this.id);">Cheguei Aqui!</button>
 
@@ -260,7 +256,7 @@ Q = (A xor B) or not(C)
 
 <button class="button0" id="6:ci-equacao" onClick="progressBut(this.id);">Cheguei Aqui!</button>
 
-## Extra
+## Praticando no papel
 
 > Questão extraida do EXAME NACIONAL DE DESEMPENHO DOS ESTUDANTES 2014
 
