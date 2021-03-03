@@ -138,7 +138,7 @@ Para isso vocês deverão:
     - Mexa na chave para aplicar `0` ou `1` na entrada do circuito.
 
 !!! note "Solução"
-    https://www.tinkercad.com/things/bnWLvsuRvp6-neat-lappi-snicket/editel?sharecode=PT5cifch3LEnnF4WVh0e4NrOlIgAcKTO-bV8MRNNXq0
+    https://www.tinkercad.com/things/bnWLvsuRvp6-neat-lappi-snicket/editel?sharecode=QlWtWTyxH18eCaVwphNPVTpzdXW9IlssdNUmgLUOtAU
 
 <button class="button0" id="2:rtl-not" onClick="progressBut(this.id);">Cheguei Aqui!</button>
 
