@@ -223,7 +223,7 @@ a) 0xA01 para decimal:
     |       |       |
   A.16^2  0.16^1   1.16^0
     
-   -> 2.560 + 0 + 1.1 = 2561
+   -> 10.256 + 0.16 + 1.1 = 2561
 ```
 
 Para alterar a base de Decimal para Hexa, uma das soluções mais triviais é a de converter primeiro para binário e então agrupar os bits de 4 em 4 e converter para hexa:
