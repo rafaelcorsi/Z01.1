@@ -2,7 +2,36 @@
 
 Informações sobre as avaliações (e simulados) da disciplina:
 
-## AV1 
+## AV1 - sexta 12/3
+
+Avaliação será realizado no blackboard, com proctorio e sem consulta.
+
+Aulas: 1, 2, 3 e 4
+
+- Conteúdos: 
+    - Organização de Computadores (visão geral)
+    - Álgebra booleana
+    - Portas lógicas
+    - Tabela Verdade
+        - Soma dos produtos / Produto das somas
+    - Simplificação via equação algébrica
+    - Simplificação via mapa de Karnaught
+    - Equação via circuito
+    - Circuito via equação
+    - Transistores
+    - Portas lógicas: not, and, or
+    - Dados digitais
+    - Binário, Hexadecimal
+    - ASCII, BCD
+    - Conversão bin -- hex -- dec
+
+<!--
+- Projetos 
+    - B - Lógica Combinacional  
+    - C - ULA
+    
+## AV2
+
 
 - Conteúdo 
     - Álgebra Booleana: Tabela Verdade/ Mapa de K./ Soma dos Produtos/ Produtos da Soma/ Simplificação Algébrica
@@ -12,13 +41,6 @@ Informações sobre as avaliações (e simulados) da disciplina:
     - Aritmética binária: Complemento de um/ Complemento de Dois/ Soma binária
     - Aritmética Binária - HW: Half-Adder/ Full-Adder/ Somadores
     - ULA: Sinais de controle
-
-- Projetos 
-    - B - Lógica Combinacional  
-    - C - ULA
-    
-    
-## AV2
 
 - Teórica: https://docs.google.com/forms/d/e/1FAIpQLSeCtVXIBXCKqEem1DujLaT5ScfQsVmvl3o3i8eyGCJSZuvX8g/viewform?usp=sf_link
 - Prática: https://github.com/insper-classroom/20b-ele-av2-simulado
@@ -42,5 +64,5 @@ Nessa nova versão da avaliação, iremos separar em duas partes:
     - 
 
 
-
+--->
 
