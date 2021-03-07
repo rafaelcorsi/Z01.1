@@ -2,6 +2,8 @@
 
 Resumo e planejamento das aulas.
 
+![](https://github.com/Insper/Z01.1/raw/master/Planejamento.png){width=550}
+
 <!--
 ## Aula 13 - nasm jmp 
  
@@ -137,6 +139,7 @@ Aula de apresentação da matéria; visão geral do que vai ser feito; Criação
     - [Slide](https://github.com/Insper/Z01.1/raw/master/Materias-Aula/01-Introducao-Slides.pdf)
     - [Prezi](https://prezi.com/view/InQMPs4wjxMtznUGlW6L/)
     CALC
+    
 1. Handout/ Estudo/ Exercício (40 min):
     - [Montar grupos](https://docs.google.com/spreadsheets/d/1hbrLelEdeRQr9siGwYfisSL55E5JMIX5kgyoh7u47yY/edit?usp=sharing)
     - [Mural](https://app.mural.co/t/elementos9119/m/elementos9119/1597285239955/b0ee33c2c314f45deed54bff567249274e9cccc6)
