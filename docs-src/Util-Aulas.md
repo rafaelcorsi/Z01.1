@@ -86,9 +86,8 @@ Dúvidas sobre dados digitais, uma breve visão geral sobre git e github.
 |----------------------------------------------|
 | https://insper.github.io/Z01.1/Teoria-Dados/ |
 
-1. Expositiva (0h50):
-   - [Slides]()
-   - [Lousa]()
+1. Expositiva/ Dúvidas (0h50):
+   - [Lousa](https://github.com/Insper/Z01.1/raw/master/Materias-Aula/04-Dados-Digitais-Lousa.png)
 
 1. Handout/ Exercício (1h10):
    - [Dados Digitais 1](https://docs.google.com/spreadsheets/d/1rN_zQqYaVI8PjAhKqEBCmY-_06I0X9dD0RddcI-miJs/edit?usp=sharing)
@@ -102,9 +101,9 @@ Trabalhar com transistores e circuitos integrados.
 |----------------------------------------------------------|
 | [Teoria RTL](https://insper.github.io/Z01.1/Teoria-RTL/) |
 
-1. Expositiva (0h50):
-   - [Slides]()
-   - [Lousa]()
+1. Expositiva/ Dúvidas  (0h50):
+   - [Slides](https://github.com/Insper/Z01.1/raw/master/Materias-Aula/03-Transitores-CI-Slides.pdf)
+   - [Lousa](https://github.com/Insper/Z01.1/raw/master/Materias-Aula/03-Transitores-CI-Lousa.pdf.png)
 
 1. Laboratório (1h10):
    - [Lab 3: Transistores / CI](https://insper.github.io/Z01.1/A-Transistores-Lab-1/)
@@ -117,8 +116,8 @@ Estudar lógica booleana e praticar; Introdução ao git com trabalho coletivo.
 |------------------------------------------------------------------------------------|
 | [Teoria Álgebra Booleana](https://insper.github.io/Z01.1/Teoria-Algebra-Booleana/) |
 
-1. Expositiva (45 min)
-    - [Lousa] 
+1. Expositiva/ Dúvidas  (45 min)
+    - [Lousa](https://github.com/Insper/Z01.1/raw/master/Materias-Aula/02-Algebra-Booleana-Lousa.png) 
     
 1. Kahoot (10 min)
     - https://create.kahoot.it/creator/c7adbf49-4c8c-4756-b4c9-63361626c20d
@@ -135,7 +134,7 @@ Estudar lógica booleana e praticar; Introdução ao git com trabalho coletivo.
 Aula de apresentação da matéria; visão geral do que vai ser feito; Criação de grupos e preparar github do grupo.
 
 1. Slides (1h00):
-    - [Slide]()
+    - [Slide](https://github.com/Insper/Z01.1/raw/master/Materias-Aula/01-Introducao-Slides.pdf)
     - [Prezi](https://prezi.com/view/InQMPs4wjxMtznUGlW6L/)
     CALC
 1. Handout/ Estudo/ Exercício (40 min):
