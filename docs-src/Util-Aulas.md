@@ -118,7 +118,7 @@ Estudar lógica booleana e praticar; Introdução ao git com trabalho coletivo.
 | [Teoria Álgebra Booleana](https://insper.github.io/Z01.1/Teoria-Algebra-Booleana/) |
 
 1. Expositiva (45 min)
-    - [Lousa] 
+    - [Lousa]()
     
 1. Kahoot (10 min)
     - https://create.kahoot.it/creator/c7adbf49-4c8c-4756-b4c9-63361626c20d
