@@ -87,11 +87,11 @@ Dúvidas sobre dados digitais, uma breve visão geral sobre git e github.
 | https://insper.github.io/Z01.1/Teoria-Dados/ |
 
 1. Expositiva/ Dúvidas (0h50):
-   - [Lousa](https://github.com/Insper/Z01.1/raw/master/Materias-Aula/04-Dados-Digitais-Lousa.png)
+    - [Lousa](https://github.com/Insper/Z01.1/raw/master/Materias-Aula/04-Dados-Digitais-Lousa.png)
 
 1. Handout/ Exercício (1h10):
-   - [Dados Digitais 1](https://docs.google.com/spreadsheets/d/1rN_zQqYaVI8PjAhKqEBCmY-_06I0X9dD0RddcI-miJs/edit?usp=sharing)
-   - [Dados Digitais 2](https://insper.github.io/Z01.1/Exercicio-Dados-2/)
+    - [Dados Digitais 1](https://docs.google.com/spreadsheets/d/1rN_zQqYaVI8PjAhKqEBCmY-_06I0X9dD0RddcI-miJs/edit?usp=sharing)
+    - [Dados Digitais 2](https://insper.github.io/Z01.1/Exercicio-Dados-2/)
 
 ## Aula 3
 
@@ -102,11 +102,11 @@ Trabalhar com transistores e circuitos integrados.
 | [Teoria RTL](https://insper.github.io/Z01.1/Teoria-RTL/) |
 
 1. Expositiva/ Dúvidas  (0h50):
-   - [Slides](https://github.com/Insper/Z01.1/raw/master/Materias-Aula/03-Transitores-CI-Slides.pdf)
-   - [Lousa](https://github.com/Insper/Z01.1/raw/master/Materias-Aula/03-Transitores-CI-Lousa.pdf.png)
+    - [Slides](https://github.com/Insper/Z01.1/raw/master/Materias-Aula/03-Transitores-CI-Slides.pdf)
+    - [Lousa](https://github.com/Insper/Z01.1/raw/master/Materias-Aula/03-Transitores-CI-Lousa.pdf.png)
 
 1. Laboratório (1h10):
-   - [Lab 3: Transistores / CI](https://insper.github.io/Z01.1/A-Transistores-Lab-1/)
+    - [Lab 3: Transistores / CI](https://insper.github.io/Z01.1/A-Transistores-Lab-1/)
 
 ## Aula 2 
 
