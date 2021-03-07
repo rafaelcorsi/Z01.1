@@ -195,7 +195,7 @@ a) 0xA01 para binário:
       |     \    \  
      1010   0000  0001 
      
-     -> 0b1010_1000_00001 
+     -> 0b1010_0000_0001 
 ```
 
 b) `0b1111_0101_1000` para hexa:
@@ -215,15 +215,15 @@ b) `0b1111_0101_1000` para hexa:
 
 Para converter de Hexa para Decimal basta aplicar os pesos em cada um das unidades, como demonstrado a seguir:
 
-a) 0x10A para decimal:
+a) 0xA01 para decimal:
 
 ```
     A       0       1
     |       |       |
     |       |       |
-  A.16^2  0.16^1   1.16^1
+  A.16^2  0.16^1   1.16^0
     
-   -> 10.256 + 0 + 1.16 = 2576
+   -> 10.256 + 0.16 + 1.1 = 2561
 ```
 
 Para alterar a base de Decimal para Hexa, uma das soluções mais triviais é a de converter primeiro para binário e então agrupar os bits de 4 em 4 e converter para hexa:
