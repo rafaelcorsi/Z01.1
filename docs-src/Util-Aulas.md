@@ -75,7 +75,7 @@ Inicio do projeto B - Lógica Booleana, começo do uso de VHDL.
 
 | Estudo prévio                                      |
 |----------------------------------------------------|
-| https://insper.github.io/Z01.1/Teoria-Dados/       |
+| https://insper.github.io/Z01.1/Teoria-Componentes/ |
 | https://insper.github.io/Z01.1/VHDL-basico/        |
 | https://insper.github.io/Z01.1/VHDL-Combinacional/ |
 
