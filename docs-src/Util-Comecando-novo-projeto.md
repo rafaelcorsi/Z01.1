@@ -38,7 +38,7 @@ $ git checkout master
 $ git merge upstream/master
 ```
 
-Feito isso deve ter aparecido uma nova pasta dentro do repositório de vocês: `Projetos/C-LogicaCombinacional/`.
+Feito isso deve ter aparecido uma nova pasta dentro do repositório de vocês: `Projetos/B-LogicaCombinacional/`.
 
 ### travis
 
