@@ -1,8 +1,5 @@
 # Começando novo projeto
 
-!!! success "2020-2"
-    Material atualizado.
-
 !!! linux
     Usar o Linux fornecido!
 
@@ -92,10 +89,14 @@ $ ./updateZ01tools.sh
 ## Antes de começar - Desenvolvedores
 
 !!! note "Desenvolvedores"
-    Todos desenvolvedores devem fazer essa etapa.
+    1. Todos desenvolvedores devem fazer essa etapa.
+    1. ==Fazer isso somente depois que o mediador fez a parte dele!==
 
-!!! warning 
-    Fazer isso somente depois que o mediador fez a parte dele!
+Volte para a branch master:
+
+```
+$ git checkout master
+```
 
 Agora todos os integrantes do grupo devem atualizar o repositório local:
 
@@ -108,7 +109,7 @@ $ git pull origin master
 !!! warning
     Todos devem realizar essa etapa: Mediadores e Desenvolvedores
 
-Atualizar a infra da disciplina executando o comando a seguir:
+Atualizar a infra da disciplina executando o comando a seguir na pasta raiz ro repositorio:
 
 ```bash
 $ ./updateZ01tools.sh
