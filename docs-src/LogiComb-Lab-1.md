@@ -1,15 +1,19 @@
 # Lab 4: FPGA - VHDL
 
-!!! success "2020-2"
-    Material atualizado.
+| Material de estudos                                |
+|----------------------------------------------------|
+| https://insper.github.io/Z01.1/Teoria-Componentes/ |
+| https://insper.github.io/Z01.1/VHDL-basico/        |
+| https://insper.github.io/Z01.1/VHDL-Combinacional/ |
 
-!!! info "Individual"
-    Esse laboratório é para ser realizado em dupla/trio.
+!!! info "Trabalhando"
 
-!!! note "Linux"
-    ![](https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png){width=50} Usar o Linux fornecido.
+    1. ![](https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png){width=30} Usar o Linux fornecido.
+   
+    1. Esse laboratório é para ser realizado individualmente. Ficar conectado no canal
+    do grupo para descutir com os colegas.    
 
-Esse laboratório é introdutório para o desenvolvimento do projeto ([`B-Lógica-Combinacional`](/Z01.1/LogiComb-Projeto)), onde iremos criar componentes de hardware que serão os alicerces do nosso computador. Primeiro precisamos praticar um pouco de VHDL e entender a ferramenta e o fluxo de compilação, teste e programação (Quartus).
+Este laboratório é introdutório para o desenvolvimento do projeto ([`B-Lógica-Combinacional`](/Z01.1/LogiComb-Projeto)), onde iremos criar componentes de hardware que serão os alicerces do nosso computador. Primeiro precisamos praticar um pouco de VHDL e entender a ferramenta e o fluxo de compilação, teste e programação (Quartus).
 
 Após essa etapa, iremos começar o desenvolvimento do projeto, programando os módulos que virão a ser utilizados no computador Z01 (próximo lab).
 
@@ -48,10 +52,11 @@ A pasta do projeto `B-LogicaCombinacional` no repositório Z01 possui a seguinte
 
 ## Abrindo o Quartus
 
-!!! linux
-    Se não encontrar o software na barra de tarefas, abra o terminal e escreva `quartus` :arrow_right: `enter`.
 
 Abra o software do `Quartus` ![](figs/LogiComb/quartusIcon.png){width=30px} e clique em `File` :arrow_right: `Open Project` :arrow_right: escolha o projeto localizado na pasta `B-LogicaCombinacional/Quartus`. O arquivo que o Quartus irá reconhecer é o: `DE0_CV_Default.qpf` como no gif a seguir:
+
+!!! tip
+    Se não encontrar o software na barra de tarefas abra o terminal e escreva `quartus` :arrow_right: `enter`.
 
 ![Abrindo o Quartus](figs/LogiComb/Quartus1.gif)
 
@@ -84,6 +89,9 @@ Onde podemos analisar que não existe nenhuma lógica que relaciona entrada com 
 
 !!! note "RTL"
     O RTL aqui tem outro significado de quando foi utilizado com transistores, aqui é **Register-transfer level** e nos transistores é **Resistor–transistor logic**.
+
+!!! info 
+    SW = Switchs = Chaves da placa
 
 !!! tip 
     Iremos utilizar bastante o RTL, aprenda a gerar e a interpretar! 
@@ -138,11 +146,11 @@ Onde o valor do `LEDR0` será o próprio valor de entrada chave `SW0`.
 
 ## Exercícios
 
-Para cada desafio proposto a seguir, verifique se o RTL corresponde a lógica que deseja implementar. Se estive no Insper teste o programa na FPGA:
+Para cada desafio proposto a seguir, verifique se o RTL corresponde a lógica que deseja implementar. ~~Se estive no Insper teste o programa na FPGA:~~
 
 1. Compile
 1. Verifique o RTL
-1. Programe a FPGA (se estiver no insper)
+1. ~~Programe a FPGA (se estiver no insper)~~
     
 !!! tip
     valide analisando o RTL ou programando a placa.
