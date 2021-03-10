@@ -15,7 +15,7 @@ Você deve fazer a secção do seu papel: Mediador/ Desenvolvedor
 !!! note "Mediador"
     ==Somente mediador==, mas todos devem acompanhar (uma hora será sua vez).
 
-Antes de começar será necessário atualizar o repositório de vocês com os novos arquivos no repositório oficial da disciplina, e também configurar o Travis para executar os testes nesse novo projeto. 
+Antes de começar será necessário atualizar o ==repositório de vocês== com os novos arquivos no repositório oficial da disciplina, e também configurar o Travis para executar os testes nesse novo projeto. 
 
 ### upstream
 
