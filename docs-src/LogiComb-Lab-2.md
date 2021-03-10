@@ -1,8 +1,5 @@
 # Lab 5: Lógica Combinacional
 
-!!! success "2020-2"
-    Material atualizado.
-
 !!! info "Individual"
     Esse laboratório é para ser realizado individualmente.
 
