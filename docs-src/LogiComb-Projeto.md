@@ -1,7 +1,8 @@
 # B - Lógica Combinacional
 
-!!! success "2020-2"
-    Material atualizado.
+| Data da entrega| 
+|----------------|
+| Quinta - 18/3  |
 
 ![](figs/LogiComb/sistema-comb.svg)
 
@@ -184,6 +185,10 @@ Deve-se implementar os seguintes circuitos combinacionais:
 Cada integrante do grupo irá receber duas notas: Uma referente ao desenvolvimento total do projeto (Projeto) e outra referente a sua participação individual no grupo.
 
 ### Grupo
+
+| Data da entrega| 
+|----------------|
+| Quinta - 18/3  |
 
 Para atingir os objetivos A e B, deve-se antes atingir o C.
 
