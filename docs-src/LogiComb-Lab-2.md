@@ -95,7 +95,7 @@ o repositório do grupo esse novo branch. Essa modificação deve ser salva em n
 ``` bash
 $ git checkout -B or16-SEU-USER
 $ git commit -am "funcionando e testado"
-$ git push origin or16
+$ git push origin or16-SEU-USER
 ```
 
 !!! note
