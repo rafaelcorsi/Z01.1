@@ -1,8 +1,5 @@
 # Começando novo projeto
 
-!!! success "2020-2"
-    Material atualizado.
-
 !!! linux
     Usar o Linux fornecido!
 
@@ -18,7 +15,7 @@ Você deve fazer a secção do seu papel: Mediador/ Desenvolvedor
 !!! note "Mediador"
     ==Somente mediador==, mas todos devem acompanhar (uma hora será sua vez).
 
-Antes de começar será necessário atualizar o repositório de vocês com os novos arquivos no repositório oficial da disciplina, e também configurar o Travis para executar os testes nesse novo projeto. 
+Antes de começar será necessário atualizar o ==repositório de vocês== com os novos arquivos no repositório oficial da disciplina, e também configurar o Travis para executar os testes nesse novo projeto. 
 
 ### upstream
 
@@ -41,7 +38,7 @@ $ git checkout master
 $ git merge upstream/master
 ```
 
-Feito isso deve ter aparecido uma nova pasta dentro do repositório de vocês: `Projetos/C-LogicaCombinacional/`.
+Feito isso deve ter aparecido uma nova pasta dentro do repositório de vocês: `Projetos/B-LogicaCombinacional/`.
 
 ### travis
 
@@ -92,10 +89,14 @@ $ ./updateZ01tools.sh
 ## Antes de começar - Desenvolvedores
 
 !!! note "Desenvolvedores"
-    Todos desenvolvedores devem fazer essa etapa.
+    1. Todos desenvolvedores devem fazer essa etapa.
+    1. ==Fazer isso somente depois que o mediador fez a parte dele!==
 
-!!! warning 
-    Fazer isso somente depois que o mediador fez a parte dele!
+Volte para a branch master:
+
+```
+$ git checkout master
+```
 
 Agora todos os integrantes do grupo devem atualizar o repositório local:
 
@@ -108,7 +109,7 @@ $ git pull origin master
 !!! warning
     Todos devem realizar essa etapa: Mediadores e Desenvolvedores
 
-Atualizar a infra da disciplina executando o comando a seguir:
+Atualizar a infra da disciplina executando o comando a seguir na pasta raiz ro repositorio:
 
 ```bash
 $ ./updateZ01tools.sh

@@ -1,12 +1,13 @@
 # B - Lógica Combinacional
 
-!!! success "2020-2"
-    Material atualizado.
+| Data da entrega| 
+|----------------|
+| Quinta - 18/3  |
 
 ![](figs/LogiComb/sistema-comb.svg)
 
 !!! tip "Scrum Master"
-    Você é `Scrum Master` e não sabe por onde começar? De uma olhada nessas dicas: [Vixi! Sou Scrum Master](/Z01.1/Util-vixi-sou-scrum)
+    Você é `Scrum Master` e não sabe por onde começar? De uma olhada nessas dicas: [Vixi! Sou Scrum Master](https://insper.github.io/Z01.1/Util-vixi-sou-scrum/)
 
 Esse projeto tem como objetivo trabalhar com portas lógicas e sistemas digitais combinacionais (sem um clock) em FPGA e VHDL. Os elementos lógicos desenvolvidos nessa etapa serão utilizados como elementos básicos para a construção do computador. 
 
@@ -185,6 +186,10 @@ Cada integrante do grupo irá receber duas notas: Uma referente ao desenvolvimen
 
 ### Grupo
 
+| Data da entrega| 
+|----------------|
+| Quinta - 18/3  |
+
 Para atingir os objetivos A e B, deve-se antes atingir o C.
 
 | Conceito | Descritivo                                                  |
@@ -198,6 +203,21 @@ Para atingir os objetivos A e B, deve-se antes atingir o C.
 |          | **Implementando um único display de 7s (conta de 0x0 0xF)** |
 | **D**    | Até dois Módulos com falha/ não apresentou o vídeo da FPGA  |
 | **I**    | Mais de três módulos com falha                              |
+
+!!! tip "Conceito A e B"
+    Atualizei o repositório adicionando dois novos arquivos:
+    
+    - `ConceitoB.vhd` e `ConceitoA.vhd`
+    
+    Vocês devem implementar os o "exibe hexadecimal" e "exibe decimal" nestes
+    arquivos. Adicionei um teste para os módulos, ==você pode testar descomentando
+    o arquivo de configuração de testes.==
+    
+    Sugerimos que vocês reutilizem o módulo `sevenSeg.vhd`, para isso devem
+    utilizar uma recurso do VHDL chamado de `port map`, para saber mais acesse:
+    
+    - [VHDL/port map](/Z01.1/VHDL-port-map/)    
+    
 
 ### Individual
 
