@@ -35,39 +35,40 @@ Labs:
 
 -  Labs e Teoria (~1h15):
 
-> (terminar até nossa próxima aula)
-
-    1. Teoria Z01: https://insper.github.io/Z01.1/Teoria-Z01/
-    1. Teoria Assembly: https://insper.github.io/Z01.1/Teoria-Assembly/
-    1. Lab 11 Assembly: https://insper.github.io/Z01.1/assembly-Lab-1/
-    1. Teoria Mapa de memória: https://insper.github.io/Z01.1/Teoria-Z01-mapadeMemoria/
-    1. Lab 12 Periféricos: https://insper.github.io/Z01.1/assembly-Lab-2/
-
-## Aula 7
- 
-- Explicação pequena CPU
-- [Lab 9: Pequena CPU](https://insper.github.io/Z01.1/ula-lab-4/)
-- [Teoria: Lógica Sequencial](https://insper.github.io/Z01.1/Teoria-Logica-Sequencial/)
-- [Estudo: Lógica Sequência](https://docs.google.com/forms/d/e/1FAIpQLSdGuoLR1Re3aok6I6adChgaDuMg0-dJaA7FF2gK5MLIGReg3g/viewform)
-
-## Aula 6 
-
-- Lab 8
-- Terminar lab 6 e 7. 
-- Entrega C para terça 
-
-## Aula 5
-
-- Lab 6
-- Lab 7
-
-## Aula 4    
-
-Pequena expositiva
-	Exercícios Dados Digitais 1: https://docs.google.com/spreadsheets/d/1MqgT-U9c3V4v5LVi27yZr89jugACc1sp4-R9MYf26Pg/edit?usp=sharing
-- [Estudo: Dados Digitais 2: https://insper.github.io/Z01.1/Exercicio-Dados-2/
-
 -->
+
+## Aula 9
+
+Detalhes da ULA da CPU do Z01.1.
+
+| Estudo prévio                                     |
+|---------------------------------------------------|
+| [ULA](https://insper.github.io/Z01.1/Teoria-ULA/) |
+
+1. Expositiva (0h30)
+   
+1. Laboratórios (0h30)
+   - [Lab 8: ULA][/Z01.1/ula-Lab-3/]
+
+1. Aula estúdio (1h00)
+
+## Aula 8 
+
+Começo do projeto C-ULA, trabalhando com aritmética binária.
+
+| Estudo prévio                                                                           |
+|-----------------------------------------------------------------------------------------|
+| [Aritmética Binária](https://insper.github.io/Z01.1/Teoria-Aritmetica-Binaria/)         |
+| [Aritmética Binária - HW](https://insper.github.io/Z01.1/Teoria-Aritmetica-Binaria-HW/) |
+
+1. Expositiva/ Dúvidas (0h40):
+
+1. Handout (0h30):
+   - [Handout Aritmética Booleana](https://github.com/Insper/Z01.1/blob/master/Exercicios/Exercicio-Aritmetica-Booleana.pdf)
+
+1. Laboratórios (0h60)
+   - [Lab 6: Adders][/Z01.1/ula-Lab-1/]
+   - [Lab 7: Visualizando simulação ][/Z01.1/ula-Lab-2/]
 
 ## Aula 7
 
@@ -87,7 +88,12 @@ Inicio do projeto B - Lógica Booleana, começo do uso de VHDL.
 | https://insper.github.io/Z01.1/VHDL-basico/        |
 | https://insper.github.io/Z01.1/VHDL-Combinacional/ |
 
-1. Expisitiva (0h30)
+1. Expositiva/ Dúvidas (0h50)
+
+1. Handout/ Exercício (1h10):
+    - [Dados Digitais 1](https://docs.google.com/spreadsheets/d/1rN_zQqYaVI8PjAhKqEBCmY-_06I0X9dD0RddcI-miJs/edit?usp=sharing)
+    - [Dados Digitais 2](https://insper.github.io/Z01.1/Exercicio-Dados-2/)
+
    
 1. Laboratórios (1h30)
    - [Lab4: FPGA - VHDL][/Z01.1/LogiComb-Lab-1]

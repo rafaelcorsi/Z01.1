@@ -1,13 +1,13 @@
 # Lab 8: ULA 
 
-!!! success "2020-2"
-    Material atualizado.
-
 !!! note "Sugestão"
     1. Realizar o lab individualmente
     1. Ficar no canal do grupo e tirar dúvidas entre os colegas!
 
-O objetivo desse laboratório é o de trabalharmos com o controle dos sinais da ULA para entendermos as operações da unidade de processamento do nosso computador.
+!!! tip
+    Antes de seguir você deve ter lido a [Teoria/ULA](/Z01.1/Teoria-ULA/).
+
+O objetivo desse laboratório é o de trabalharmos com o controle dos sinais da ULA para entendermos as operações da unidade de processamento do nosso computador. Para isso iremos:
 
 1. Executando o simulador
 1. Controlando ULA para realizar operações específicas (exercícios)
