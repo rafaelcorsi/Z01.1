@@ -2,11 +2,33 @@
 
 Informações sobre as avaliações (e simulados) da disciplina:
 
+## AV2 - AF
+
+Avaliação prática individual deve ser realizada no SSD Linux, a avaliação será distribuída via github classroom e o envio deve ser feito via ele.
+
+Liberado consulta ao material da disciplina.
+
+- Projetos:
+    - B: Lógica Combinacional  
+    - C: ULA
+    - D: Lógica Sequêncial
+
+- Conteúdos:
+    - Componentes Digitais: And/ ... / Mux/ Encolders (BCD/ 7seg/ Gray)
+    - Aritmética binária: Complemento de um/ Complemento de Dois/ Soma binária
+    - Aritmética Binária - HW: Half-Adder/ Full-Adder/ Somadores
+    - ULA: Sinais de controle
+    - Lógica Sequêncial: Memórias
+    - Componentes Síncronos: Flip-Flop
+    - VHDL: Combinacional
+    - VHDL: Síncrono
+
+
 ## AV1 - sexta 12/3
 
-Avaliação será realizado no blackboard, com proctorio e sem consulta.
+Avaliação teórica será realizado no blackboard, com proctorio e sem consulta.
 
-Aulas: 1, 2, 3 e 4
+Simulado liberado no blackboard.
 
 - Conteúdos: 
     - Organização de Computadores (visão geral)
@@ -26,21 +48,6 @@ Aulas: 1, 2, 3 e 4
     - Conversão bin -- hex -- dec
 
 <!--
-- Projetos 
-    - B - Lógica Combinacional  
-    - C - ULA
-    
-## AV2
-
-
-- Conteúdo 
-    - Álgebra Booleana: Tabela Verdade/ Mapa de K./ Soma dos Produtos/ Produtos da Soma/ Simplificação Algébrica
-    - Resistor Transistor Logic (RTL)
-    - Dados Digitais: Números binários/ hexadecimal/ octal/ BCD/ ASCII
-    - Componentes Digitais: And/ ... / Mux/ Encolders (BCD/ 7seg/ Gray)
-    - Aritmética binária: Complemento de um/ Complemento de Dois/ Soma binária
-    - Aritmética Binária - HW: Half-Adder/ Full-Adder/ Somadores
-    - ULA: Sinais de controle
 
 - Teórica: https://docs.google.com/forms/d/e/1FAIpQLSeCtVXIBXCKqEem1DujLaT5ScfQsVmvl3o3i8eyGCJSZuvX8g/viewform?usp=sf_link
 - Prática: https://github.com/insper-classroom/20b-ele-av2-simulado
