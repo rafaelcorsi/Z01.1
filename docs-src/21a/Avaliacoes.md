@@ -6,6 +6,8 @@ Informações sobre as avaliações (e simulados) da disciplina:
 
 Avaliação prática individual deve ser realizada no SSD Linux, a avaliação será distribuída via github classroom e o envio deve ser feito via ele.
 
+- **Link para acessar o simulado:** https://classroom.github.com/a/i59ZwS85
+
 Liberado consulta ao material da disciplina.
 
 - Projetos:
