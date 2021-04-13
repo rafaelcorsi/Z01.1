@@ -13,7 +13,7 @@ Liberado consulta ao material da disciplina.
 - Projetos:
     - B: Lógica Combinacional  
     - C: ULA
-    - D: Lógica Sequêncial
+    - D: Lógica Sequêncial (teoria apenas)
 
 - Conteúdos:
     - Componentes Digitais: And/ ... / Mux/ Encolders (BCD/ 7seg/ Gray)
