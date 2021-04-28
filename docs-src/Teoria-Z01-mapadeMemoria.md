@@ -161,11 +161,11 @@ O nosso LCD é um dispositivo de `320x240` pixels. Cada linha do endereço de me
     Como nosso LCD possui 320px na horizontal, e como cada endereço de memória acessa 16px por vez,
     uma linha é acessível por: `320/16 = 20` endereços. Ou seja, para acessar os primeiros px de cada linha devemos escrever endereço de memória:
 
-    - Primeira linha: `16384 + 0x20`: 16384
-    - Segunda  linha: `16384 + 1x20`: 16404
-    - Terceira linha: `16384 + 2x19`: 16424
+    - Primeira linha: `16384 + 0 vezes 20`: 16384
+    - Segunda  linha: `16384 + 1 vezes 20`: 16404
+    - Terceira linha: `16384 + 2 vezes 20`: 16424
     - ...
-    - Última linha:  `16384 + 239x19`: 21164
+    - Última linha:  `16384 + 239 vezes 20`: 21164
 
 
 !!! example "LCD"
