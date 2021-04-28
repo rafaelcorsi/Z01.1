@@ -177,7 +177,11 @@ O salto condicional é aquele que é utilizado para realizarmos `if ... else`, n
         > RAM[1] = 0
  
         ![](figs/Teoria/Z0-nasm-jump-cond1.gif)
+        
 
+!!! warning
+    As labels precisam estar escritas da mesma maneira, altere ea linha 9 para **leaw $end, $A** **ou** a linha 15 para **END:**
+ 
 !!! tip
     Teste o código anterior no `Z01-Simulator`.
     
