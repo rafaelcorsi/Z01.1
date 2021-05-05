@@ -50,4 +50,10 @@ jobs:
         mkdir $HOME/modelsim_ase/lib32
         tar zxf Libfreetype-6.10.1-lib32.tar.gz -C $HOME/modelsim_ase/lib32
        
-        export LD_LIBRARY_PATH=$HOME/intelFPGA_lite/20.1/modelsim_ase/lib32
+        export VUNIT_SIMULATOR=modelsim
+        export VUNIT_MODELSIM_PATH=$HOME/modelsim_ase/bin/
+        export LD_LIBRARY_PATH=$HOME/modelsim_ase/lib32
+
+    - name: teste vhdl
+        bash updateZ01tools.sh 
+        python3 Projetos/B-LogicaCombinacional/testeLogicaCombinacional.py
