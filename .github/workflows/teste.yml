@@ -24,9 +24,15 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.8.5
+        
+    - name: download z01 tools
+      run: |
+        git clone https://github.com/insper/Z01-tools $HOME/Z01-Tools/
+        
     - name: Install python dependencies
       run: |
         pip install -r requirements.txt
+        
     - name: Install ubuntu dependencies
       run: |
         sudo dpkg --add-architecture i386
@@ -57,5 +63,4 @@ jobs:
 
     - name: teste vhdl
       run: |
-        bash updateZ01tools.sh 
         python3 Projetos/B-LogicaCombinacional/testeLogicaCombinacional.py
