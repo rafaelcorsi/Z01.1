@@ -55,5 +55,6 @@ jobs:
         export LD_LIBRARY_PATH=$HOME/modelsim_ase/lib32
 
     - name: teste vhdl
+      run: |
         bash updateZ01tools.sh 
         python3 Projetos/B-LogicaCombinacional/testeLogicaCombinacional.py
