@@ -17,6 +17,7 @@ jobs:
       VUNIT_SIMULATOR: modelsim
       VUNIT_MODELSIM_PATH: $HOME/modelsim_ase/bin/
       LD_LIBRARY_PATH: $HOME/modelsim_ase/lib32
+      VUNIT_MODELSIM_INI: /home/runner/modelsim_ase/modelsim.ini
       
     steps:
     - uses: actions/checkout@v2
