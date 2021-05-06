@@ -15,16 +15,16 @@ jobs:
     
     env:
       VUNIT_SIMULATOR: modelsim
-      VUNIT_MODELSIM_PATH: $HOME/modelsim_ase/bin/
-      LD_LIBRARY_PATH: $HOME/modelsim_ase/lib32
+      VUNIT_MODELSIM_PATH: /home/runner/modelsim_ase/bin/
+      LD_LIBRARY_PATH: /home/runner/modelsim_ase/lib32
       VUNIT_MODELSIM_INI: /home/runner/modelsim_ase/modelsim.ini
       
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.9
+    - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
-        python-version: 3.9
+        python-version: 3.8.5
         
     - name: download z01 tools
       run: |
