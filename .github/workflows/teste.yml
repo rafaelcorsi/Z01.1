@@ -61,6 +61,9 @@ jobs:
        mkdir $HOME/modelsim_ase/lib32
        
        tar zxf Libfreetype-6.10.1-lib32.tar.gz -C $HOME/modelsim_ase/lib32 
+       
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
 
     - name: teste vhdl
       run: |
